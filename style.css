@@ -1,0 +1,30 @@
+.container {
+    /* width: 100vw; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.container .header {
+    font-size: 2vw;
+}
+
+.buttons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 60vw;
+    height:auto;
+    max-height: 80vh;
+}
+
+.footer {
+    position: absolute;
+    top: 96vh;
+    /* display: flex; */
+    /* justify-content: center; */
+}
